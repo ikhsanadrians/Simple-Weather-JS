@@ -2,7 +2,7 @@ const API_KEY = "crkH1iAOmrnAauO5fC1QHg==6OWtaIGIPWZGUdKi"
 
 $('#city').keypress(function (e) {
     let searchVal = $(this).val()
-    if (e.which == 13) {`1`
+    if (e.which == 13) {
         $.ajax({
             method: 'GET',
             url: 'https://api.api-ninjas.com/v1/weather?city=' + $(this).val(),
