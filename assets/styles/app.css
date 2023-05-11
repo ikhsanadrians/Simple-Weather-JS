@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Dela+Gothic+One&family=Koulen&family=Lato:ital@1&family=Monoton&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Orbitron:wght@700&family=Permanent+Marker&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@600&family=Red+Hat+Mono:wght@500&family=Roboto+Condensed:wght@300;700&family=Rubik:wght@400;500;600&family=Smooch+Sans&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Ubuntu:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #3c86c7 0%, #24c5ce 100%);
+}
+
+.weathers {
+    width: 40rem;
+}
+
+
+.weather__container {
+    height: 25rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding:20px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.city__search {
+    height: 120px;
+    display: flex;
+    padding: 0px 0px 10px 0px;
+    position: relative;
+    align-items: center;
+}
+
+.bi-map-fill {  
+    position: absolute;
+    margin-left: 20px;
+    z-index: 10;
+}
+
+.search__city {
+    padding: 15px 50px;
+    height: 70px;
+    width: 100%;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+
+.your__location__weather {
+ display: flex;
+ align-items: center;
+ gap:10px;
+ color:white;
+}
+
+.location__temp , .location__wind , .location__sunrise , .location__sunset , .location__name{
+ display:flex;
+ align-items: center;
+ gap: 5px;
+}
+
+h1 {
+ color: white;
+
+}
+
+
+::placeholder {
+    color: white;
+    font-size: 20px;
+}
