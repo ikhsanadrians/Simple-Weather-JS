@@ -86,6 +86,29 @@ h1 {
 
 }
 
+.credits { 
+
+width: 100%;
+position: absolute;
+display: flex;
+text-align: center;
+bottom: 0;
+margin-bottom: 15px;
+justify-content: center;
+}
+
+.github__link {
+position: absolute;
+top: 0;
+margin: 15px;
+right: 0;
+} 
+
+.github__link:hover {
+   scale: 110%;
+   transition: .5s;
+}
+
 
 ::placeholder {
     color: white;
