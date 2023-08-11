@@ -29,7 +29,7 @@ $('#city').keypress(function (e) {
                 })
                 
                 $('#location__id').text(searchVal.toUpperCase());
-                $('#temp__id').text(response.temp)
+                $('#temp__id').text(`${response.temp} ° C`)
                 $('#wind__id').text(response.wind_speed)
                 $('#sunsrise__id').text(timeSunrise)
                 $('#sunset__id').text(timeSunset)
